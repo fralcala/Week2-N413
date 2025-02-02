@@ -1,0 +1,17 @@
+/* 
+Theme Name: Double Choco Cookies
+Template: choco-cookies
+*/
+
+body {
+  background-color: #966b6b;
+}
+
+.main-content-holder {
+  color: #e4c57e;
+  font-weight: bold;
+}
+
+nav ul {
+  color: #e4c57e;
+}
