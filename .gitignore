@@ -1,16 +1,17 @@
-*
+# Ignore all root files except .gitignore & readme.md
 
+/**.**
 !.gitignore
+!readme.**
 
-!exports
-!exports/*
+# Ignore wp-admin and wp-includes
 
-!wp-content
-!wp-content/themes
-!wp-content/themes/*
-!wp-content/themes/*/*
-!wp-content/themes/*/*/*
-wp-content/themes/twentytwenty**
+/wp-admin
+/wp-includes
 
-!wp-content/plugins
-!wp-content/plugins/*
+# Ignore any up* folders in wp-content
+
+/wp-content/up**
+
+# Ignore twentytwenty themes
+/wp-content/themes/twenty**
